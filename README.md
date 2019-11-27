@@ -3,7 +3,7 @@
 This project identifies whether a website is a Phishing website or not based on various features.
 
 ## Dataset
-The dataset contains 31 columns, with 30 features and 1 target. The dataset has 2456 observations. As part of the dataset we have below columns, which are used to classify the URL as phishing or not:
+The dataset contains 31 columns, with 30 features and 1 target. The dataset has 2456 observations. As part of the dataset we have following columns, which are used to classify a website as phishing or Legitimate:
 
 ###### Rule: { -1 → Phishing, 0 → Suspicious, Otherwise → Legitimate }
 
