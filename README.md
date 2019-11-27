@@ -94,10 +94,19 @@ The dataset contains 31 columns, with 30 features and 1 target. The dataset has 
       * Rule: {If Webpage Indexed by Google → Legitimate,      Otherwise → Phishing}
 
 29. Links_pointing_to_page { 1,0,-1 }  
-      * Rule: {If #Of Link Pointing to The Webpage=0 → Phishing,     Else if #Of Link Pointing to The Webpage>0 and≤2 → Suspicious,     Otherwise → Legitimate}
+      * Rule: {If # of Link Pointing to The Webpage=0 → Phishing,     Else if #Of Link Pointing to The Webpage>0 and≤2 → Suspicious,     Otherwise → Legitimate}
 
 30. Statistical_report { -1,1 }  
       * Rule: {If Host Belongs to Top Phishing IPs or Top Phishing Domains → Phishing,     Otherwise → Legitimate}
 
 31. Result { -1,0 }  
       * Rule: {If  0 → Phishing,    Else If 1 → Legitimate}
+      
+      
+
+## Data Exploration and PreProcessing
+
+1. Created a dataframe 'dataset' to extract the data into it.
+2. dataset.info() and dataset.isna().sum shows the information about the data including the null values. This dataset doesn't have null values and it's clean.
+3. Data should be split into training and test. After analysing for overfitting and underfitting conditions, I have split them as 75% for Training and 25% for Testing for better accuracy.
+4. 
