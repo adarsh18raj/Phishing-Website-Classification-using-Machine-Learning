@@ -123,3 +123,12 @@ Since it is a classification problem, I've used the following models:
 
 ## Evaluating and Testing the model: 
 Used Area under the curve and confusion matrix in order find which model is a good fit and how accurately model is predicting the values.
+
+
+
+|   |   |
+|---|---|
+|   |   |
+|   |   |
+|   |   |
+|   |   |
