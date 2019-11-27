@@ -1,6 +1,6 @@
 # Website Phishing Prediction/Classification
 
-Developed a model that predicts/classifies whether a website is a Phishing website based on various features.
+This project predicts/classifies whether a website is a Phishing website or not based on various features.
 
 ## Dataset
 The dataset contains 31 columns, with 30 features and 1 target. The dataset has 2456 observations. As part of the dataset we have below columns, which are used to classify the URL as phishing or not:
@@ -106,7 +106,20 @@ The dataset contains 31 columns, with 30 features and 1 target. The dataset has 
 
 ## Data Exploration and PreProcessing
 
-1. Created a dataframe 'dataset' to extract the data into it.
-2. dataset.info() and dataset.isna().sum shows the information about the data including the null values. This dataset doesn't have null values and it's clean.
-3. Data should be split into training and test. After analysing for overfitting and underfitting conditions, I have split them as 75% for Training and 25% for Testing for better accuracy.
-4. 
+1. Created a dataframe 'data' to extract the data into it.
+2. data.info() and data.isna().sum shows the information about the data including the null values. This dataset doesn't have null values and it's clean.
+3. In order to understand the distibution of data, I've plotted the count values of each feature and I've carried out descriptive statistics as well.
+4. Data should be split into training and test. After analysing for overfitting and underfitting conditions, I have split them as 80% for Training and 20% for Testing for better accuracy.
+
+
+## Training the Model
+Since it is a classification problem, I've used the following models:
+1. Logistic regression
+2. Decision tree 
+3. XG Boost
+4. Random Forest
+
+
+
+## Evaluating and Testing the model: 
+Used Area under the curve and confusion matrix in order find which model is a good fit and how accurately model is predicting the values.
