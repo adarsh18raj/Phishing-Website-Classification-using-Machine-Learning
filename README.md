@@ -110,8 +110,6 @@ The dataset contains 31 columns, with 30 features and 1 target. The dataset has 
 2. data.info() and data.isna().sum shows the information about the data including the null values. This dataset doesn't have null values and it's clean.
 3. In order to understand the distibution of data, I've plotted the count values of each feature and I've carried out descriptive statistics as well.
 4. Data should be split into training and test. After analysing for overfitting and underfitting conditions, I have split them as 80% for Training and 20% for Testing for better accuracy.
-5. Applied different classification algorithms.
-6. Calculated accuracy, precision, recall and F-score to choose the best model for prediction.
 
 
 ## Training the Model
