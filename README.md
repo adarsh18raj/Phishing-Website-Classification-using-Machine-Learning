@@ -1,6 +1,6 @@
 # Phishing Website Prediction
 
-This project predicts/classifies whether a website is a Phishing website or not based on various features.
+This project identifies whether a website is a Phishing website or not based on various features.
 
 ## Dataset
 The dataset contains 31 columns, with 30 features and 1 target. The dataset has 2456 observations. As part of the dataset we have below columns, which are used to classify the URL as phishing or not:
