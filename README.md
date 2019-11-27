@@ -137,7 +137,7 @@ I've calculated accuracy, precision, recall and F-score to choose the best model
 
 
 ## Conclusion
-Among all the classification algorithms applied, Random Forest with the randomize search CV with best search parameters and Ensembling voting classifier are giving the best accuracy of 97%.
+Among all the classification algorithms applied, Random Forest gives the best accuracy of 97% and it is the most trustworthy models among other I have used for this dataset.
 
 
 
