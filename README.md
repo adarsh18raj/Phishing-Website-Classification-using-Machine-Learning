@@ -126,9 +126,9 @@ Used Area under the curve and confusion matrix in order find which model is a go
 
 
 
-|   |   |
+| Model Used  | Accuracy  |
 |---|---|
-|   |   |
-|   |   |
-|   |   |
-|   |   |
+|Logistic regression   |0.93   |
+|Decision tree   |0.91   |
+|XG Boost   |0.94   |
+|Random Forest   |0.97   |
