@@ -1,4 +1,5 @@
 # Phishing Website Classification using Machine Learning
+Phishing is an online crime that tries to trick unsuspected users to expose their sensitive (and valuable) personal information, for example, usernames, passwords, financial account details, personal addresses, SSN, and social relationships, to the miscreant, often for malicious reasons. Phishing is normally perpetrated by disguising as a trustworthy entity in Internet communication which is achieved by combining both social engineering and technical tricks.
 
 ## Objective
 Develop a model that predicts/classifies whether a website is a Phishing website.
