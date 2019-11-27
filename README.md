@@ -1,4 +1,4 @@
-# Phishing Website Identification using Machine Learning
+# Phishing Website Classification using Machine Learning
 
 ## Objective
 Develop a model that predicts/classifies whether a website is a Phishing website.
