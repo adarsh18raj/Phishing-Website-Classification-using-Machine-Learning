@@ -1,4 +1,4 @@
-# Phishing Website Prediction
+# Phishing Website Identification using Machine Learning
 
 This project identifies whether a website is a Phishing website or not based on various features.
 
