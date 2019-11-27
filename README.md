@@ -10,7 +10,7 @@ Rule: { -1 → Phishing, 0 → Legitimate, Otherwise → Legitimate   Otherwise�
 
 
 * having_IP_Address { -1,1 }  
-      *Rule: {If the Domain Part has an IP Address → Phishing   Otherwise→ Legitimate }
+      * Rule: {If the Domain Part has an IP Address → Phishing   Otherwise→ Legitimate }
 
 * URL_Length { 1,0,-1 }   
       * Rule: {If URL length <54 → Legitimate  else if URL length 54 and 75 → Suspicious   Otherwise → Phishing }
@@ -47,7 +47,7 @@ Rule: { -1 → Phishing, 0 → Legitimate, Otherwise → Legitimate   Otherwise�
       * Rule: {If Using HTTP Token in Domain Part of The URL → Phishing     Otherwise → Legitimate }
 
 * Request_URL { 1,-1 } 
-      * Rule: {If % of Request URL <22% → Legitimate     Else if % of Request URL≥22% and 61% → Suspicious     Otherwise → Phishing  }
+      * Rule: {If % of Request URL <22% → Legitimate     Else if % of Request URL≥22% and 61% → Suspicious     Otherwise → Phishing }
 
 
 * URL_of_Anchor { -1,0,1 }    
@@ -91,7 +91,7 @@ Rule: { -1 → Phishing, 0 → Legitimate, Otherwise → Legitimate   Otherwise�
       * Rule: {If Website Rank<100,000 → Legitimate     Else if Website Rank>100,000 → Suspicious     Otherwise → Phishing }
 
 * Page_Rank { -1,1 }   
-      * Rule: {If PageRank<0.2 → Phishing     Otherwise → Legitimate  }
+      * Rule: {If PageRank<0.2 → Phishing     Otherwise → Legitimate }
 
 * Google_Index { 1,-1 }  
       * Rule: {If Webpage Indexed by Google → Legitimate      Otherwise → Phishing }
