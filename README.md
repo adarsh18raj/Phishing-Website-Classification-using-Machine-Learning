@@ -9,8 +9,8 @@ Rule: { -1 → Phishing, 0 → Legitimate, Otherwise → Legitimate   Otherwise�
 
 
 
-* having_IP_Address { -1,1 }  
-      * Rule: {If the Domain Part has an IP Address → Phishing   Otherwise→ Legitimate }
+* having_IP_Address { -1,1 } 
+ * Rule: {If the Domain Part has an IP Address → Phishing   Otherwise→ Legitimate }
 
 * URL_Length { 1,0,-1 }   
       * Rule: {If URL length <54 → Legitimate  else if URL length 54 and 75 → Suspicious   Otherwise → Phishing }
@@ -19,7 +19,7 @@ Rule: { -1 → Phishing, 0 → Legitimate, Otherwise → Legitimate   Otherwise�
       * Rule: {TinyURL → Phishing   Otherwise → Legitimate }
 
 * having_At_Symbol { 1,-1 }   
-      - Rule: {If Url Having @ Symbol → Phishing   Otherwise → Legitimate }
+      * Rule: {If Url Having @ Symbol → Phishing   Otherwise → Legitimate }
 
 * double_slash_redirecting { -1,1 }   
       * Rule:  {If the Position of the Last Occurrence of "//" in the URL > 7→ Phishing      Otherwise→ Legitimate }
