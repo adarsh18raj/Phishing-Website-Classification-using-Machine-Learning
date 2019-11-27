@@ -9,8 +9,8 @@ Rule: { -1 → Phishing, 0 → Legitimate, Otherwise → Legitimate   Otherwise�
 
 
 
-* having_IP_Address { -1,1 } 
-          * Rule: {If the Domain Part has an IP Address → Phishing   Otherwise→ Legitimate }
+* having_IP_Address { -1,1 }
+         * Rule: {If the Domain Part has an IP Address → Phishing   Otherwise→ Legitimate }
 
 * URL_Length { 1,0,-1 }   
       * Rule: {If URL length <54 → Legitimate  else if URL length 54 and 75 → Suspicious   Otherwise → Phishing }
