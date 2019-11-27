@@ -1,6 +1,7 @@
 # Phishing Website Identification using Machine Learning
 
-This project identifies whether a website is a Phishing website or not based on various features.
+## Objective
+Develop a model that predicts/classifies whether a website is a Phishing website.
 
 ## Dataset
 The dataset contains 31 columns, with 30 features and 1 target. The dataset has 2456 observations. As part of the dataset we have following columns, which are used to classify a website as phishing or Legitimate:
