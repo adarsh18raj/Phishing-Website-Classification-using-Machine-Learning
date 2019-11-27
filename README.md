@@ -110,10 +110,12 @@ The dataset contains 31 columns, with 30 features and 1 target. The dataset has 
 2. data.info() and data.isna().sum shows the information about the data including the null values. This dataset doesn't have null values and it's clean.
 3. In order to understand the distibution of data, I've plotted the count values of each feature and I've carried out descriptive statistics as well.
 4. Data should be split into training and test. After analysing for overfitting and underfitting conditions, I have split them as 80% for Training and 20% for Testing for better accuracy.
+5. Applied different classification algorithms.
+6. Calculated accuracy, precision, recall and F-score to choose the best model for prediction.
 
 
 ## Training the Model
-Since it is a classification problem, I've used the following models:
+Since it is a classification problem, I've applied different classification algorithms and used the following models:
 1. Logistic regression
 2. Decision tree 
 3. XG Boost
@@ -122,13 +124,17 @@ Since it is a classification problem, I've used the following models:
 
 
 ## Evaluating and Testing the model: 
-Used Area under the curve and confusion matrix in order find which model is a good fit and how accurately model is predicting the values.
+I've calculated accuracy, precision, recall and F-score to choose the best model for prediction. I've also used Area under the curve and confusion matrix in order to find which model is a good fit and how accurately the model is predicting values.
 
 
 
 | Model Used  | Accuracy  |
 |---|---|
-|Logistic regression   |0.93   |
-|Decision tree   |0.91   |
-|XG Boost   |0.94   |
-|Random Forest   |0.97   |
+|Logistic Regression   | 0.93 |
+|Decision Tree   | 0.91 |
+|XG Boost   | 0.94 |
+|Random Forest   | 0.97 |
+
+
+## Conclusion
+Among all the classification algorithms applied, Random Forest with the randomize search CV with best search parameters and Ensembling voting classifier are giving the best accuracy of 97%.
