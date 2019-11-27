@@ -99,7 +99,7 @@ The dataset contains 31 columns, with 30 features and 1 target. The dataset has 
 30. Statistical_report { -1,1 }  
       * Rule: {If Host Belongs to Top Phishing IPs or Top Phishing Domains → Phishing,     Otherwise → Legitimate}
 
-31. Result { -1,0 }  
+31. Result { 0,1 }  
       * Rule: {If  0 → Phishing,    Else If 1 → Legitimate}
       
       
