@@ -133,11 +133,11 @@ I've calculated accuracy, precision, recall and F-score to choose the best model
 |Logistic Regression   | 0.93 |
 |Decision Tree   | 0.91 |
 |XG Boost   | 0.94 |
-|Random Forest   | 0.97 |
+|Random Forest   | 0.98 |
 
 
 ## Conclusion
-Among all the classification algorithms applied in this project to classify whether a website is a Phishing website, Random Forest turns out to be the best one as it gives the accuracy of 97%. 
+Among all the classification algorithms applied in this project to classify whether a website is a Phishing website, Random Forest turns out to be the best one as it gives the accuracy of 98%. 
 
 
 
