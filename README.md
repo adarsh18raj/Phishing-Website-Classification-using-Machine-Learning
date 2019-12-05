@@ -132,7 +132,7 @@ I've calculated accuracy, precision, recall and F-score to choose the best model
 |---|---|
 |Logistic Regression   | 0.93 |
 |Decision Tree   | 0.91 |
-|XG Boost   | 0.94 |
+|XG Boost   | 0.95 |
 |Random Forest   | 0.98 |
 
 
