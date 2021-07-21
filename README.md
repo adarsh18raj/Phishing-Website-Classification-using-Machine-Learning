@@ -141,4 +141,4 @@ Among all the classification algorithms applied in this project to classify whet
 
 
 
-If you have any query, feel free to contact me at adarsh18raj@gmail.com
+For any query, feel free to contact me at adarsh18raj@gmail.com
